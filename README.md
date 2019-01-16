@@ -1,6 +1,12 @@
 <<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Own features added:
+1. Address is clickable and searches address on Google Maps
+2. Allows to search by pressing Enter
+3. Image is clickable and opens business' website in new table
+4. Clicking on different sortin options automatically requiries Yelp
+
 ## Available Scripts
 
 In the project directory, you can run:

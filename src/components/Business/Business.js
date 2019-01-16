@@ -9,10 +9,12 @@ class Business extends React.Component {
     this.openCompanyURL = this.openCompanyURL.bind(this);
   }
 
+// Address is clickable and searches address on Google Maps
   openMaps() {
     window.open(`https://www.google.fi/maps/search/${this.props.business.address} ${this.props.business.city}`)
   }
 
+// Image is clickable and opens business' website in new table
   openCompanyURL() {
     window.open(this.props.business.url);
   }

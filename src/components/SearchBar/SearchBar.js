@@ -44,6 +44,7 @@ class SearchBar extends React.Component {
     //LocationSearchInput();
   }
 
+// Allows to search by pressing Enter
   checkKey(e) {
     if (e.keyCode === 13) {
       this.handleSearch(e)
@@ -69,7 +70,7 @@ class SearchBar extends React.Component {
     return(
       <div className="SearchBar">
         <div className="SearchBar-sort-options">
-          <ul onClick={this.handleSearch}>
+          <ul onClick={this.handleSearch}> {/* Clicking on different sortin options automatically requiries Yelp */}
             {this.renderSortByOptions()}
           </ul>
         </div>
