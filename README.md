@@ -1,4 +1,4 @@
-Simple React project using YelpAPI.
+Simple React project using YelpAPI. Codeacademy project.
 
 Own features added:
 1. Address is clickable and searches address on Google Maps
